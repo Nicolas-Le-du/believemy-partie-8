@@ -25,8 +25,10 @@
       $nombreDeMois = 1;
 
       While($poidsActuel > $poidsVoulu) {
-        echo '<br><br><br>Poids Visé dans ' .($nombreDeMois++). ' mois : '.($poidsActuel -= 4). 'kg<br>';
+        echo '<br>Poids Visé dans ' .($nombreDeMois++). ' mois : '.($poidsActuel -= 4). 'kg';
           }
     ?>
+
+  
 </body>
 </html>
